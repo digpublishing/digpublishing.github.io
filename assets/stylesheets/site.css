@@ -14,12 +14,22 @@ black: #292f33
 */
 
 
+html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
   color: #292f33;
   line-height: 1.4em;
-  /*background-color: #514B5E;*/
+}
+
+.wrapper {
+  min-height: 100%;
+  position: relative;
+}
+
+main {
+  padding-bottom: 260px;
 }
 
 a {
@@ -41,6 +51,10 @@ h2 {
   padding-right: 1.5em;
 }
 
+.site-header a {
+  text-decoration: none;
+}
+
 .site-header img {
   display: inline-block;
   width: 72px;
@@ -57,6 +71,15 @@ h2 {
 
 section {
   padding: 0 15%;
+}
+
+.title-block {
+  margin: 12em 0 4em;
+  text-align: center;
+}
+
+.title-block h1 {
+  font-size: 3em;
 }
 
 .text-block {
@@ -119,10 +142,14 @@ section {
 }
 
 .site-footer {
+  position: absolute;
+  bottom: 0;
+  width: calc(100% - 48px);
+  height: 160px;
   font-family: CooperHewitt_Book;
   margin-top: 8em;
   background-color: #ffcc4d;
-  padding: 1em 1.5em 1.5em;
+  padding: 1em 1.5em;
 }
 
 .site-footer .footer-contact {
