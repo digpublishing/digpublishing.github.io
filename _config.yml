@@ -1,0 +1,22 @@
+# Site settings
+title: Art & Museum Digital Publishing Group
+description: "A special interest group for sharing and discussing with others in the field, occasional virtual activities or seminars, and in-person conference meet-ups."
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site
+twitter:
+  - digpublishing
+  - musetech
+  - eprdctn
+github:  https://github.com/digpublishing
+
+# Maintainers
+
+maintainers:
+  - name: Greg Albers
+    affiliation: J. Paul Getty Trust
+    twitter: geealbers
+    github: geealbers
+    email: galbers@getty.edu
+
+# Build settings
+markdown: kramdown

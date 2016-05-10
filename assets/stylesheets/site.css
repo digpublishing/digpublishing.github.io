@@ -1,0 +1,104 @@
+/*
+
+yellow: #ffcc4d
+brown: #664500
+blue: #55acee
+dark-blue: #226699
+red: #e75a70
+dark-red: #ba1933
+light-gray: #e1e8ed
+gray: #ccd6dd
+dark-gray: #9aaab4
+black: #292f33
+
+*/
+
+
+body {
+  padding: 0 1em;
+  color: #292f33;
+  /*background-color: #514B5E;*/
+}
+
+h1, h2 {
+  font-family: CooperHewitt_Heavy;
+}
+
+h2 {
+  font-size: 1em;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+
+.site-header img {
+  display: inline-block;
+  width: 72px;
+  max-width: 10%;
+  vertical-align: middle;
+}
+
+.site-header .site-title {
+  color: #55acee;
+  text-align: right;
+  float: right;
+  margin-top: 1.5em;
+}
+
+.text-block {
+  font-size: 1.5em;
+  line-height: 1.4em;
+  padding: 0 15%;
+}
+
+.text-block strong {
+  font-family: CooperHewitt_Bold;
+  font-size: .8em;
+  text-transform: uppercase;
+}
+
+.text-block ul {
+  list-style-type: square;
+}
+
+
+.text-block ul li {
+  margin-bottom: 1em;
+}
+
+.button-block {
+  font-size: 1em;
+  line-height: 1.4em;
+  text-align: center;
+  height: 7em;
+  margin-top: 8em;
+  padding: 4em 15%;
+}
+
+.button-group {
+  width: 40%;
+  margin: 0 5%;
+  float: left;
+  font-family: CooperHewitt_Medium;
+  color: #9aaab4;
+}
+
+.button-group p {
+  margin-left: 8%;
+  margin-right: 8%;
+}
+
+.button-group .button {
+  font-family: CooperHewitt_Bold;
+  letter-spacing: 1px;
+  font-size: 1.6em;
+  width: 100%;
+	height: 2.5em;
+	background-color: #ccd6dd;
+	color: #fff;
+	border: 3px #ccd6dd solid;
+	border-radius: 6px;
+	padding-left: 5%;
+	padding-right: 5%;
+  padding-top: .2em;
+}
