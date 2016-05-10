@@ -1,9 +1,10 @@
 <footer class="site-footer">
-  <ul>
-    <li>Twitter</li>
-    <li>GitHub</li>
-    <li>Slack</li>
-    <li>Email</li>
+  <p class="footer-contact">This group is currently chaired and maintained by {% for maintainer in site.maintainers %}{{ maintainer.name }}, {{ maintainer.affiliation }}, <a href="mailto:{{ maintainer.email }}">{{ maintainer.email }}</a>{% endfor %}</p>
+  <ul class="footer-links">
+    <li><span class="icon">{% include icon-twitter.svg %}</span> {% for item in site.twitter-hashtags %}{% if forloop.last %}<a href="https://twitter.com/hashtag/{{ item }}" target="_blank" title="Twitter">#{{ item }}</a>{% else %}<a href="https://twitter.com/hashtag/{{ item }}" target="_blank" title="Twitter">#{{ item }}</a> / {% endif %}{% endfor %}</li>
+    <li><span class="icon">{% include icon-github.svg %}</span><a href="{{ site.github }}" target="_blank" title="GitHub">{{ site.github }}</a> <em>contributions welcome!</em></li>
+    <li><span class="icon">{% include icon-slack.svg %}</span><a href="{{ site.slack }}" target="_blank" title="Slack">{{ site.slack }}</a></li>
   </ul>
-  <p>This groiup is currently co-chaired and maintained by ...</p>
 </footer>
+
+<!-- <span class="icon">{% include icon-twitter.svg %}</span> -->
