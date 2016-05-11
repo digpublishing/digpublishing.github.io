@@ -36,6 +36,10 @@ a {
   color: #292f33;
 }
 
+a:hover {
+  background-color: #ffcc4d;
+}
+
 h1, h2 {
   font-family: CooperHewitt_Heavy;
 }
@@ -139,6 +143,10 @@ section {
 .button-group .button:hover {
   background-color: #9aaab4;
   border-color: #9aaab4;
+}
+
+.form-block {
+  width: 100%;
 }
 
 .site-footer {
