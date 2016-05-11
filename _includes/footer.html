@@ -1,5 +1,5 @@
 <footer class="site-footer">
-  <p class="footer-contact">This group is currently chaired and maintained by {% for maintainer in site.maintainers %}{{ maintainer.name }}, {{ maintainer.affiliation }}, <a href="mailto:{{ maintainer.email }}">{{ maintainer.email }}</a>{% endfor %}</p>
+  <p class="footer-contact">This group is currently moderated and maintained by {% for moderator in site.moderators %}{{ moderator.name }}, {{ moderator.affiliation }}, <a href="mailto:{{ moderator.email }}">{{ moderator.email }}</a>{% endfor %}</p>
   <ul class="footer-links">
     <li><span class="icon">{% include icon-twitter.svg %}</span> {% for item in site.twitter-hashtags %}{% if forloop.last %}<a href="https://twitter.com/hashtag/{{ item }}" target="_blank" title="Twitter">#{{ item }}</a>{% else %}<a href="https://twitter.com/hashtag/{{ item }}" target="_blank" title="Twitter">#{{ item }}</a> / {% endif %}{% endfor %}</li>
     <li><span class="icon">{% include icon-github.svg %}</span><a href="{{ site.github }}" target="_blank" title="GitHub">{{ site.github }}</a> <em>contributions welcome!</em></li>

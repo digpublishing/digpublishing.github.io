@@ -1,5 +1,5 @@
 # Site settings
-title: Art & Museum Digital Publishing Group
+title: Art & Museum Digital Publishing Interest Group
 description: "A special interest group for sharing and discussing with colleagues, occasional virtual activities or seminars, and in-person conference meet-ups."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -12,7 +12,7 @@ slack: https://digpublishing.slack.com
 
 # Maintainers
 
-maintainers:
+moderators:
   - name: Greg Albers
     affiliation: J. Paul Getty Trust
     email: galbers@getty.edu
