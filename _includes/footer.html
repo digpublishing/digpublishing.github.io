@@ -1,8 +1,15 @@
 <footer class="site-footer">
-  <p class="footer-contact">This group is currently moderated and maintained by {% for moderator in site.moderators %}{{ moderator.name }}, {{ moderator.affiliation }}, <a href="mailto:{{ moderator.email }}">{{ moderator.email }}</a>{% endfor %}</p>
-  <ul class="footer-links">
+  <section>
+  <p class="footer-contact"><strong>This group is moderated and maintained by</strong></p>
+  <ul>
+    {% for moderator in site.moderators %}<li>{{ moderator.name }}, {{ moderator.affiliation }}, <a href="mailto:{{ moderator.email }}">{{ moderator.email }}</a><li/>{% endfor %}
+  </ul>
+  </section>
+  <section>
+  <ul>
     <li><span class="icon">{% include icon-twitter.svg %}</span> {% for item in site.twitter-hashtags %}{% if forloop.last %}<a href="https://twitter.com/hashtag/{{ item }}" target="_blank" title="Twitter">#{{ item }}</a>{% else %}<a href="https://twitter.com/hashtag/{{ item }}" target="_blank" title="Twitter">#{{ item }}</a> / {% endif %}{% endfor %}</li>
-    <li><span class="icon">{% include icon-github.svg %}</span><a href="{{ site.github }}" target="_blank" title="GitHub">{{ site.github }}</a> <em>contributions welcome!</em></li>
+    <li><span class="icon">{% include icon-github.svg %}</span><a href="{{ site.github }}" target="_blank" title="GitHub">{{ site.github }}</a></li>
     <li><span class="icon">{% include icon-slack.svg %}</span><a href="{{ site.slack }}" target="_blank" title="Slack">{{ site.slack }}</a></li>
   </ul>
+  </section>
 </footer>

@@ -73,8 +73,10 @@ h2 {
   margin-top: 1.5em;
 }
 
-section {
-  padding: 0 15%;
+main section {
+  padding: 0 1.5rem;
+  max-width: 740px;
+  margin: 200px auto 2rem;
 }
 
 .title-block {
@@ -153,17 +155,13 @@ section {
   position: absolute;
   bottom: 0;
   width: calc(100% - 48px);
-  height: 160px;
+  height: 180px;
   font-family: CooperHewitt_Book;
   margin-top: 8em;
   background-color: #ffcc4d;
   padding: 1em 1.5em;
-}
-
-.site-footer .footer-contact {
-  float: right;
-  text-align: right;
-  width: 30%;
+  display: flex;  
+  justify-content: space-around;
 }
 
 .site-footer ul {

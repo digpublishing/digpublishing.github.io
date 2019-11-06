@@ -1,5 +1,5 @@
 # Site settings
-title: Art & Museum Digital Publishing Interest Group
+title: Museum Publishing Digital Interest Group
 description: "A special interest group for sharing and discussing with colleagues, occasional virtual activities or seminars, and in-person conference meet-ups."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -16,6 +16,15 @@ moderators:
   - name: Greg Albers
     affiliation: J. Paul Getty Trust
     email: galbers@getty.edu
+  - name: Lauren Makholm
+    affiliation: Art Institute of Chicago
+    email: lmakholm@artic.edu
+  - name: Katie Reilly
+    affiliation: Philadelphia Museum of Art
+    email: Katie.Reilly@philamuseum.org
+  - name: Emily Zoss
+    affiliation: National Gallery of Art
+    email: E-Zoss@nga.gov
 
 # Build settings
 markdown: kramdown

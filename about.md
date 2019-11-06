@@ -1,4 +1,9 @@
-The Art & Museum Digital Publishing Interest Group is an open community for sharing and discussing with colleagues, occasional virtual activities and learning, and in-person conference meet-ups. While we do not host a public forum ([Slack Team](slack.html)), sign-ups are open to anyone interested in the field and willing to listen and participate in a meaningful and respectful manner ([Code of Conduct](code-of-conduct.html)).
+---
+title: About
+layout: page
+---
+
+The Museum Publishing Digital Interest Group is an open community for sharing and discussing digital publishing ideas and issues with colleagues. We have a Slack group, an email newsletter and, starting in January 2020, a series of bi-monthly video chats featuring different community members sharing projects and ideas. While our focus is on museum publishing, sign-ups are open to anyone interested in the field.
 
 While digital publishing has seen a radical ascendance since the release of the Kindle in 2007 (with ebooks having become as ubiquitous as print in some genres) digital publishing for art and museum books has lagged behind. Whether this is due to a lack of appropriate publishing formats and distribution points for our material, or a lack of technological expertise in our sector, it is important to remember we are still in the very early days of the medium.
 
