@@ -149,6 +149,7 @@ main section {
 
 .form-block {
   width: 100%;
+  margin-top: 3rem;
 }
 
 .site-footer {
@@ -160,7 +161,7 @@ main section {
   margin-top: 8em;
   background-color: #ffcc4d;
   padding: 1em 1.5em;
-  display: flex;  
+  display: flex;
   justify-content: space-around;
 }
 
