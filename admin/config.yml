@@ -1,0 +1,4 @@
+backend:
+  name: github
+  repo: digpublishing/digpublishing.github.io
+  branch: master
