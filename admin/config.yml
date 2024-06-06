@@ -2,7 +2,8 @@ backend:
   name: github
   repo: digpublishing/digpublishing.github.io
   branch: master
-media_folder: "assets/images"
+  site_domain: "mupudig.netlify.app" # Netlify Site that hosts OAuth
+media_folder: "assets/images/uploads"
 collections:
  - name: "webinar"
    label: "Webinar"
