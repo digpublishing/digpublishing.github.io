@@ -60,11 +60,12 @@ collections:
     label: 'Data'
     files:
     - file: '_data/committee.yml'
-      label: 'Committee Members'
+      label: 'Committee'
+      name: 'committee'
       fields:
         - widget: 'list'
-          name: 'committee'
-          label: 'Committee Members'
+          name: 'members'
+          label: 'Members'
           required: true
           fields:
             - {label: 'Name', name: 'name', widget: 'string', required: true}
