@@ -1,77 +1,74 @@
 backend:
-  name: github
-  repo: digpublishing/digpublishing.github.io
-  branch: master
-  site_domain: mupudig.netlify.app # Netlify Site that hosts OAuth
-media_folder: assets/images/uploads
+  name: 'github'
+  repo: 'digpublishing/digpublishing.github.io'
+  branch: 'master'
+  site_domain: 'mupudig.netlify.app' # Netlify Site that hosts OAuth
+media_folder: 'assets/images/uploads'
 collections:
 
   # Collection of webinars
-  - label: Webinar
-    name: webinar
-    folder: webinars/_posts
+  - label: 'Webinar'
+    name: 'webinar'
+    folder: 'webinars/_posts'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
-      - {label: Title, name: title, widget: string, required: true}
-      - {label: Video URL to Embed, name: url, widget: string}
-      - {label: Date Scheduled, name: date, widget: datetime, required: true}
-      - {label: Description, name: description, widget: markdown, required: true}
-      - {label: Tags, name: tags, widget: list}
+      - {label: 'Title', name: 'title', widget: 'string', required: true}
+      - {label: 'Video URL to Embed', name: 'url', widget: 'string'}
+      - {label: 'Date Scheduled', name: 'date', widget: 'datetime', required: true}
+      - {label: 'Description', name: 'description', widget: 'markdown', required: true}
+      - {label: 'Tags', name: 'tags', widget: 'list'}
 
   # Collection of custom pages
-  - label: Custom Page
-    name: custom_page
-    folder: _pages
+  - label: 'Custom Pages'
+    name: 'custom_pages'
+    folder: '_pages'
     create: true
     delete: true
     slug: '{{slug}}'
     fields:
-      - {label: Title, name: title, widget: string, required: true}
-      - {label: Content, name: content, widget: markdown, required: true}
+      - {label: Title, name: 'title', widget: 'string', required: true}
+      - {label: 'Content', name: 'content', widget: 'markdown', required: true}
 
   # Required one-off pages
-  - label: Standard Page
-    name: standard_page
+  - label: 'Standard Pages'
+    name: 'standard_pages'
     files:
-      - label: Home
-        name: home
-        file: home.md
+      - label: 'Home'
+        name: 'home'
+        file: 'home.md'
         fields:
-          - {label: Overview, name: overview, widget: markdown, required: true}
-
-      - label: Contact
-        name: contact
-        file: contact.md
+          - {label: Overview, name: 'overview', widget: 'markdown', required: true}
+      - label: 'Contact'
+        name: 'contact'
+        file: 'contact.md'
         fields:
-          - {label: Content, name: content, widget: markdown, required: true}
-
-      - label: Best Practices
-        name: best_practices
-        file: best_practices.md
+          - {label: 'Content', name: 'content', widget: 'markdown', required: true}
+      - label: 'Best Practices'
+        name: 'best_practices'
+        file: 'best_practices.md'
         fields:
-          - {label: Content, name: content, widget: markdown, required: true}
-
-      - label: Resources
-        name: resources
-        file: resouces.md
+          - {label: 'Content', name: 'content', widget: 'markdown', required: true}
+      - label: 'Resources'
+        name: 'resources'
+        file: 'resouces.md'
         fields:
-          - {label: Content, name: content, widget: markdown, required: true}
+        - {label: 'Content', name: 'content', widget: 'markdown', required: true}
 
   # Data pages
-  - name: data
-    label: Data
+  - name: 'data'
+    label: 'Data'
     files:
-    - file: _data/committee.yml
-      label: Committee Members
+    - file: '_data/committee.yml'
+      label: 'Committee Members'
       fields:
-        - widget: list
-          name: committee
-          label: Committee Members
+        - widget: 'list'
+          name: 'committee'
+          label: 'Committee Members'
           required: true
           fields:
-            - {label: Name, name: name, widget: string, required: true}
-            - {label: Museum, name: museum, widget: string, required: true}
-            - {label: Bio, name: bio, widget: markdown, required: true}
-            - {label: Email, name: email, widget: string}
-            - {label: Are they a maintainer?, name: isMaintainer, widget: boolean, required: true, default: false}
+            - {label: 'Name', name: 'name', widget: 'string', required: true}
+            - {label: 'Museum', name: 'museum', widget: 'string', required: true}
+            - {label: 'Bio', name: 'bio', widget: 'markdown', required: true}
+            - {label: 'Email', name: 'email', widget: 'string'}
+            - {label: 'Are they a maintainer?', name: 'isMaintainer', widget: 'boolean', required: true, default: false}
