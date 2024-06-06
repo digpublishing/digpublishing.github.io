@@ -2,18 +2,73 @@ backend:
   name: github
   repo: digpublishing/digpublishing.github.io
   branch: master
-  site_domain: "mupudig.netlify.app" # Netlify Site that hosts OAuth
-media_folder: "assets/images/uploads"
+  site_domain: mupudig.netlify.app # Netlify Site that hosts OAuth
+media_folder: assets/images/uploads
 collections:
- - name: "webinar"
-   label: "Webinar"
-   folder: "_posts/webinar"
-   create: true
-   slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-   fields: 
-     - { label: "Layout", name: "layout", widget: "hidden", default: "blog" }
-     - { label: "Title", name: "title", widget: "string" }
-     - { label: "Video URL to Embed", name: "url", widget: "string" }
-     - { label: "Publish Date", name: "date", widget: "datetime" }
-     - { label: "Featured Image", name: "thumbnail", widget: "image" }
-     - { label: "Description", name: "description", widget: "markdown" }
+
+  - name: webinar
+    label: Webinar
+    folder: webinars/_posts
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
+      - {label: Title, name: title, widget: string, required: true}
+      - {label: Video URL to Embed, name: url, widget: string}
+      - {label: Date Scheduled, name: date, widget: datetime, required: true}
+      - {label: Description, name: description, widget: markdown, required: true}
+      - {label: Tags, name: tags, widget: list}
+
+  - name: page
+    label: Page
+    folder: _pages
+    create: true
+    delete: true
+    slug: '{{slug}}'
+    fields:
+      - {label: Title, name: title, widget: string, required: true}
+      - {label: Content, name: content, widget: markdown, required: true}
+
+  - name: page
+    label: Page
+    files:
+
+    - label: Home
+       name: home
+       file: home.md
+       fields:
+        - {label: Overview, name: overview, widget: markdown, required: true}
+
+    - label: Contact
+       name: contact
+       file: contact.md
+       fields:
+        - {label: Content, name: content, widget: markdown, required: true}
+
+    - label: Best Practices
+       name: best_practices
+       file: best_practices.md
+       fields:
+        - {label: Content, name: content, widget: markdown, required: true}
+
+    - label: Resources
+       name: resources
+       file: resouces.md
+       fields:
+        - {label: Content, name: content, widget: markdown, required: true}
+
+  - name: data
+    label: Data
+    files:
+    - file: _data/committee.yml
+      label: Committee Members
+      fields:
+        - widget: list
+          name: committee
+          label: Committee Members
+          required: true
+          fields:
+            - {label: Name, name: name, widget: string, required: true}
+            - {label: Museum, name: museum, widget: string, required: true}
+            - {label: Bio, name: bio, widget: markdown, required: true}
+            - {label: Email, name: email, widget: string}
+            - {label: Are they a maintainer?, name: isMaintainer, widget: boolean, required: true, default: false}
