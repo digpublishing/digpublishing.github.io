@@ -16,8 +16,8 @@ collections:
       - {label: 'Title', name: 'title', widget: 'string', required: true}
       - {label: 'Video URL to Embed', name: 'url', widget: 'string'}
       - {label: 'Date Scheduled', name: 'date', widget: 'datetime', required: true}
-      - {label: 'Description', name: 'description', widget: 'markdown', required: true}
       - {label: 'Tags', name: 'tags', widget: 'list'}
+      - {label: 'Description', name: 'body', widget: 'markdown', required: true}
 
   # Collection of custom pages
   - label: 'Custom Pages'
@@ -28,7 +28,7 @@ collections:
     slug: '{{slug}}'
     fields:
       - {label: Title, name: 'title', widget: 'string', required: true}
-      - {label: 'Content', name: 'content', widget: 'markdown', required: true}
+      - {label: 'Content', name: 'body', widget: 'markdown', required: true}
 
   # Required one-off pages
   - label: 'Standard Pages'
@@ -43,17 +43,17 @@ collections:
         name: 'contact'
         file: 'contact.md'
         fields:
-          - {label: 'Content', name: 'content', widget: 'markdown', required: true}
+          - {label: 'Content', name: 'body', widget: 'markdown', required: true}
       - label: 'Best Practices'
         name: 'best_practices'
         file: 'best_practices.md'
         fields:
-          - {label: 'Content', name: 'content', widget: 'markdown', required: true}
+          - {label: 'Content', name: 'body', widget: 'markdown', required: true}
       - label: 'Resources'
         name: 'resources'
         file: 'resouces.md'
         fields:
-        - {label: 'Content', name: 'content', widget: 'markdown', required: true}
+        - {label: 'Content', name: 'body', widget: 'markdown', required: true}
 
   # Data pages
   - name: 'data'
@@ -70,6 +70,6 @@ collections:
           fields:
             - {label: 'Name', name: 'name', widget: 'string', required: true}
             - {label: 'Museum', name: 'museum', widget: 'string', required: true}
-            - {label: 'Bio', name: 'bio', widget: 'markdown', required: true}
             - {label: 'Email', name: 'email', widget: 'string'}
             - {label: 'Are they a maintainer?', name: 'isMaintainer', widget: 'boolean', required: true, default: false}
+            - {label: 'Bio', name: 'bio', widget: 'markdown', required: true}
