@@ -6,8 +6,9 @@ backend:
 media_folder: assets/images/uploads
 collections:
 
-  - name: webinar
-    label: Webinar
+  # Collection of webinars
+  - label: Webinar
+    name: webinar
     folder: webinars/_posts
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
@@ -18,8 +19,9 @@ collections:
       - {label: Description, name: description, widget: markdown, required: true}
       - {label: Tags, name: tags, widget: list}
 
-  - name: page
-    label: Page
+  # Collection of custom pages
+  - label: Custom Page
+    name: custom_page
     folder: _pages
     create: true
     delete: true
@@ -28,34 +30,35 @@ collections:
       - {label: Title, name: title, widget: string, required: true}
       - {label: Content, name: content, widget: markdown, required: true}
 
-  - name: page
-    label: Page
+  # Required one-off pages
+  - label: Standard Page
+    name: standard_page
     files:
+      - label: Home
+        name: home
+        file: home.md
+        fields:
+          - {label: Overview, name: overview, widget: markdown, required: true}
 
-    - label: Home
-       name: home
-       file: home.md
-       fields:
-        - {label: Overview, name: overview, widget: markdown, required: true}
+      - label: Contact
+        name: contact
+        file: contact.md
+        fields:
+          - {label: Content, name: content, widget: markdown, required: true}
 
-    - label: Contact
-       name: contact
-       file: contact.md
-       fields:
-        - {label: Content, name: content, widget: markdown, required: true}
+      - label: Best Practices
+        name: best_practices
+        file: best_practices.md
+        fields:
+          - {label: Content, name: content, widget: markdown, required: true}
 
-    - label: Best Practices
-       name: best_practices
-       file: best_practices.md
-       fields:
-        - {label: Content, name: content, widget: markdown, required: true}
+      - label: Resources
+        name: resources
+        file: resouces.md
+        fields:
+          - {label: Content, name: content, widget: markdown, required: true}
 
-    - label: Resources
-       name: resources
-       file: resouces.md
-       fields:
-        - {label: Content, name: content, widget: markdown, required: true}
-
+  # Data pages
   - name: data
     label: Data
     files:
