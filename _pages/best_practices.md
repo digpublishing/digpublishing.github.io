@@ -1,4 +1,5 @@
 ---
-title: Best Practices
 layout: page
+title: Best Practices
 ---
+Test
