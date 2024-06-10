@@ -9,8 +9,11 @@ collections:
   # Collection of webinars
   - label: 'Webinar'
     name: 'webinar'
-    folder: 'webinars/_posts'
+    folder: '_posts/webinars'
+    editor:
+      preview: false
     create: true
+    delete: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
       - {label: 'Title', name: 'title', widget: 'string', required: true}
@@ -23,41 +26,34 @@ collections:
   - label: 'Custom Pages'
     name: 'custom_pages'
     folder: '_pages'
+    editor:
+      preview: false
     create: true
     delete: true
     slug: '{{slug}}'
     fields:
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page'}
       - {label: Title, name: 'title', widget: 'string', required: true}
       - {label: 'Content', name: 'body', widget: 'markdown', required: true}
 
   # Required one-off pages
-  - label: 'Standard Pages'
-    name: 'standard_pages'
+  - label: 'Home'
+    editor:
+      preview: false
+    name: 'home'
     files:
       - label: 'Home'
         name: 'home'
-        file: 'home.md'
+        file: 'index.html'
         fields:
-          - {label: Overview, name: 'overview', widget: 'markdown', required: true}
-      - label: 'Contact'
-        name: 'contact'
-        file: 'contact.md'
-        fields:
+          - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'default'}
           - {label: 'Content', name: 'body', widget: 'markdown', required: true}
-      - label: 'Best Practices'
-        name: 'best_practices'
-        file: 'best_practices.md'
-        fields:
-          - {label: 'Content', name: 'body', widget: 'markdown', required: true}
-      - label: 'Resources'
-        name: 'resources'
-        file: 'resouces.md'
-        fields:
-        - {label: 'Content', name: 'body', widget: 'markdown', required: true}
 
   # Data pages
-  - name: 'data'
-    label: 'Data'
+  - name: 'config'
+    label: 'Config'
+    editor:
+      preview: false
     files:
     - file: '_data/committee.yml'
       label: 'Committee'
@@ -69,7 +65,18 @@ collections:
           required: true
           fields:
             - {label: 'Name', name: 'name', widget: 'string', required: true}
-            - {label: 'Museum', name: 'museum', widget: 'string', required: true}
+            - {label: 'Affiliation', name: 'affiliation', widget: 'string', required: true}
             - {label: 'Email', name: 'email', widget: 'string'}
             - {label: 'Are they a maintainer?', name: 'isMaintainer', widget: 'boolean', required: true, default: false}
             - {label: 'Bio', name: 'bio', widget: 'markdown', required: true}
+    - file: '_data/navigation.yml'
+      label: 'Navigation'
+      name: 'navigation'
+      fields:
+        - widget: 'list'
+          name: 'items'
+          label: 'Navigation Items'
+          required: true
+          fields:
+            - {label: 'Name', name: 'name', widget: 'string', required: true}
+            - {label: 'Link', name: 'link', widget: 'string', required: true}

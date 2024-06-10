@@ -1,6 +1,21 @@
 members:
-  - isMaintainer: true
-    name: Greg Albers
-    museum: J. Paul Getty Trust
+  - name: Greg Albers
+    affiliation: J. Paul Getty Trust
     email: galbers@getty.edu
+    isModerators: true
+    bio: test
+  - name: Lauren Makholm
+    affiliation: Art Institute of Chicago
+    email: lmakholm@artic.edu
+    isModerators: true
+    bio: test
+  - name: Katie Reilly
+    affiliation: Philadelphia Museum of Art
+    email: Katie.Reilly@philamuseum.org
+    isModerators: true
+    bio: test
+  - name: Emily Zoss
+    affiliation: National Gallery of Art
+    email: E-Zoss@nga.gov
+    isModerators: true
     bio: test
