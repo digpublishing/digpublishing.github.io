@@ -16,6 +16,7 @@ collections:
     delete: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'webinar'}
       - {label: 'Title', name: 'title', widget: 'string', required: true}
       - {label: 'Video URL to Embed', name: 'url', widget: 'string'}
       - {label: 'Date Scheduled', name: 'date', widget: 'datetime', required: true}
@@ -33,7 +34,7 @@ collections:
     slug: '{{slug}}'
     fields:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'page'}
-      - {label: Title, name: 'title', widget: 'string', required: true}
+      - {label: 'Title', name: 'title', widget: 'string', required: true}
       - {label: 'Content', name: 'body', widget: 'markdown', required: true}
 
   # Required one-off pages
