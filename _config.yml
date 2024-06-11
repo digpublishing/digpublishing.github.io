@@ -9,21 +9,6 @@ twitter-hashtags:
   - eprdctn
 github:  https://github.com/digpublishing
 slack: https://digpublishing.slack.com
-# Maintainers
-
-# moderators:
-#   - name: Greg Albers
-#     affiliation: J. Paul Getty Trust
-#     email: galbers@getty.edu
-#   - name: Lauren Makholm
-#     affiliation: Art Institute of Chicago
-#     email: lmakholm@artic.edu
-#   - name: Katie Reilly
-#     affiliation: Philadelphia Museum of Art
-#     email: Katie.Reilly@philamuseum.org
-#   - name: Emily Zoss
-#     affiliation: National Gallery of Art
-#     email: E-Zoss@nga.gov
 
 # Build settings
 markdown: kramdown
