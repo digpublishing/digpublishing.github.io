@@ -48,7 +48,7 @@ collections:
     files:
       - label: 'Home'
         name: 'home'
-        file: 'index.html'
+        file: 'index.md'
         fields:
           - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'home'}
           - {label: 'Content', name: 'body', widget: 'markdown', required: true}
