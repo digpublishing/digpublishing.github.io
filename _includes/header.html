@@ -13,7 +13,7 @@
     </h1></a>
   </div>
   <div>
-    {% for nav in site.data.navigation %}
+    {% for nav in site.data.navigation.items %}
     <a href="{{ nav.link }}">{{ nav.name }}</a>
     {% endfor %}
   </div>

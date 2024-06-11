@@ -4,12 +4,14 @@ backend:
   branch: 'master'
   site_domain: 'mupudig.netlify.app' # Netlify Site that hosts OAuth
 media_folder: 'assets/images/uploads'
+slug:
+  clean_accesns: true
 collections:
 
   # Collection of webinars
   - label: 'Webinar'
     name: 'webinar'
-    folder: '_posts/webinars'
+    folder: '_posts/webinars/'
     editor:
       preview: false
     create: true
@@ -26,7 +28,7 @@ collections:
   # Collection of custom pages
   - label: 'Custom Pages'
     name: 'custom_pages'
-    folder: '_pages'
+    folder: '/'
     editor:
       preview: false
     create: true
@@ -41,6 +43,7 @@ collections:
   - label: 'Home'
     editor:
       preview: false
+    delete: false
     name: 'home'
     files:
       - label: 'Home'
