@@ -50,7 +50,7 @@ collections:
         name: 'home'
         file: 'index.html'
         fields:
-          - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'default'}
+          - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'home'}
           - {label: 'Content', name: 'body', widget: 'markdown', required: true}
 
   # Data pages
