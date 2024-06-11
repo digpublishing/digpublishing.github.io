@@ -26,9 +26,10 @@ collections:
       - {label: 'Description', name: 'body', widget: 'markdown', required: true}
 
   # Collection of custom pages
-  - label: 'Custom Pages'
+  - label: 'Pages'
     name: 'custom_pages'
     folder: '/'
+    filter: {field: 'layout', value: 'page'}
     editor:
       preview: false
     create: true
