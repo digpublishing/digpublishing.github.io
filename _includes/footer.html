@@ -2,7 +2,10 @@
   <section>
   <p class="footer-contact"><strong>This group is moderated and maintained by</strong></p>
   <ul>
-    {% for moderator in site.data.committee.members | where: "isModerator", true %}<li>{{ moderator.name }}, {{ moderator.affiliation }}, <a href="mailto:{{ moderator.email }}">{{ moderator.email }}</a><li/>{% endfor %}
+    {% assign moderators = site.data.committee.members | where: "isModerator", true %}
+    {% for moderator in moderators %}
+      <li>{{ moderator.name }}, {{ moderator.affiliation }}, <a href="mailto:{{ moderator.email }}">{{ moderator.email }}</a><li/>
+    {% endfor %}
   </ul>
   </section>
   <section>
