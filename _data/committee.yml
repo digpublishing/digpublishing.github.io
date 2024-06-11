@@ -4,18 +4,27 @@ members:
     email: galbers@getty.edu
     isModerators: true
     bio: test
+    isMaintainer: true
   - name: Lauren Makholm
     affiliation: Art Institute of Chicago
     email: lmakholm@artic.edu
     isModerators: true
     bio: test
+    isMaintainer: true
   - name: Katie Reilly
     affiliation: Philadelphia Museum of Art
     email: Katie.Reilly@philamuseum.org
     isModerators: true
     bio: test
+    isMaintainer: true
   - name: Emily Zoss
     affiliation: National Gallery of Art
     email: E-Zoss@nga.gov
     isModerators: true
     bio: test
+    isMaintainer: true
+  - isMaintainer: false
+    name: Daniel Keller
+    affiliation: Indianapolis Museum of Art at Newfields
+    email: dkeller@discovernewfields.org
+    bio: Test
