@@ -71,8 +71,8 @@ collections:
             - {label: 'Name', name: 'name', widget: 'string', required: true}
             - {label: 'Affiliation', name: 'affiliation', widget: 'string', required: true}
             - {label: 'Email', name: 'email', widget: 'string'}
-            - {label: 'Are they a maintainer?', name: 'isMaintainer', widget: 'boolean', required: true, default: false}
-            - {label: 'Bio', name: 'bio', widget: 'markdown', required: true}
+            - {label: 'Are they a maintainer?', name: 'isModerator', widget: 'boolean', required: true, default: false}
+            - {label: 'Bio', name: 'bio', widget: 'markdown'}
     - file: '_data/navigation.yml'
       label: 'Navigation'
       name: 'navigation'
