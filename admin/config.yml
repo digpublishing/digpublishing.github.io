@@ -20,10 +20,11 @@ collections:
     fields:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'webinar'}
       - {label: 'Title', name: 'title', widget: 'string', required: true}
-      - {label: 'Video URL to Embed', name: 'url', widget: 'string'}
+      - {label: 'Youtube URL to Embed', name: 'video_url', widget: 'string'}
+      - {label: 'Youtube Video ID', name: 'video_id', widget: 'string'}
       - {label: 'Date Scheduled', name: 'date', widget: 'datetime', required: true}
       - {label: 'Tags', name: 'tags', widget: 'list'}
-      - {label: 'Description', name: 'body', widget: 'markdown', required: true}
+      - {label: 'Content', name: 'body', widget: 'markdown', required: true}
 
   # Collection of custom pages
   - label: 'Pages'

@@ -4,6 +4,25 @@ layout: default
 <main>
   <section class="title-block">
     <h1>{{ page.title }}</h1>
+    <i>{{ page.date | date_to_string: "ordinal", "US" }}</i>
+  </section>
+  <div>
+    {% for tag in page.tags %}
+      <span>{{ tag }}</span>
+    {% endfor %}
+  </div>
+
+  <section class="video-block">
+    <iframe
+      width="560"
+      height="315"
+      src="{{ page.video_url }}&amp;controls=0"
+      title="{{ page.title }}"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allowfullscreen
+    ></iframe>
   </section>
   <section class="text-block">
     {{ content }}
