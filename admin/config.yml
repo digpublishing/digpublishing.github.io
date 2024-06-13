@@ -22,7 +22,13 @@ collections:
       - {label: 'Title', name: 'title', widget: 'string', required: true}
       - {label: 'Youtube URL to Embed', name: 'video_url', widget: 'string'}
       - {label: 'Youtube Video ID', name: 'video_id', widget: 'string'}
-      - {label: 'Date Scheduled', name: 'date', widget: 'datetime', required: true}
+      - {
+        label: 'Date Scheduled',
+        name: 'date',
+        widget: 'datetime',
+        date_format: 'MMMM D, YYYY',
+        required: true
+      }
       - {label: 'Tags', name: 'tags', widget: 'list'}
       - {label: 'Content', name: 'body', widget: 'markdown', required: true}
 
