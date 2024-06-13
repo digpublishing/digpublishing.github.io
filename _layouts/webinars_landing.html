@@ -4,7 +4,7 @@ layout: default
 <main>
   <section class="text-block">
     <ul>
-      {% for webinar in site.webinars | sort: 'date' | reverse %}
+      {% for webinar in site.posts | sort: 'date' | reverse %}
         <li>
           <a href="{{ webinar.url }}">
             <div>
