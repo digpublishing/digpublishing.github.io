@@ -1,7 +1,6 @@
 ---
 layout: webinar
 title: Publishing Ecosystems at the Georgia O'Keeffe Museum
-video_url: https://youtu.be/ho2zJQx5OWQ?si=RjrNnwI1VAtf7keK
 video_id: ho2zJQx5OWQ
 date: April 16, 2024
 ---

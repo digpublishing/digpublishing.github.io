@@ -20,7 +20,6 @@ collections:
     fields:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'webinar'}
       - {label: 'Title', name: 'title', widget: 'string', required: true}
-      - {label: 'Youtube URL to Embed', name: 'video_url', widget: 'string'}
       - {label: 'Youtube Video ID', name: 'video_id', widget: 'string'}
       - {
         label: 'Date Scheduled',

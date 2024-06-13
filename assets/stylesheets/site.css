@@ -84,12 +84,13 @@ main section {
 }
 
 .title-block {
-  margin: 12em 0 4em;
+  margin: 6em 0 4em;
   text-align: center;
 }
 
 .title-block h1 {
   font-size: 3em;
+  line-height: 1;
 }
 
 .text-block {
