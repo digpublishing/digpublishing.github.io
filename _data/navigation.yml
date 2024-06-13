@@ -1,3 +1,5 @@
 items:
   - name: About
     link: /about
+  - name: Webinars
+    link: /webinars
