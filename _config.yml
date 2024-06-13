@@ -2,7 +2,7 @@
 title: Museum Publishing Digital Interest Group
 description: "A special interest group for sharing and discussing with colleagues, occasional virtual activities or seminars, and in-person conference meet-ups."
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site
+url: "https://digpublishing.github.io" # the base hostname & protocol for your site
 twitter-hashtags:
   - digpublishing
   - musetech
