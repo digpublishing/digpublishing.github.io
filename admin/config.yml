@@ -11,7 +11,7 @@ collections:
   # Collection of webinars
   - label: 'Webinar'
     name: 'webinar'
-    folder: '_posts/webinars/'
+    folder: 'webinars/_posts/'
     editor:
       preview: false
     create: true
