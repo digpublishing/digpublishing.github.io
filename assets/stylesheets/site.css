@@ -269,20 +269,20 @@ main section {
 .menu li a{
   font-family: "Poppins", sans-serif;
   font-size:1.2rem;
-  color:#d6e0f9;
+  /* color:#d6e0f9; */
   display:block;
   text-decoration: none;
   padding:1rem 1.5rem;
 }
 
 .menu li a:hover{
-  background: #495ca8;
+  /* background: #495ca8; */
 }
 
 .submenu{
   position: absolute;
   left:0;
-  background: #101d23;
+  /* background: #101d23; */
   display:none;
   transition: all .3s ease-in-out;
 }
@@ -294,7 +294,7 @@ main section {
 
 .submenu li{
   width:100%;
-  border-top:.1rem solid #222f37;
+  /* border-top:.1rem solid #222f37; */
   list-style: none;
 }
 
@@ -304,8 +304,8 @@ main section {
       position:absolute;
       top:100%;
       left:0;
-      background: #101d23;
-      border-top: .1rem solid #222f37;
+      /* background: #101d23; */
+      /* border-top: .1rem solid #222f37; */
       display:none;
   }
 
@@ -315,7 +315,7 @@ main section {
 
   .menu li{
       width:100%;
-      border-top: .1rem solid #222f37;
+      /* border-top: .1rem solid #222f37; */
   }
 
   .submenu{
@@ -324,8 +324,8 @@ main section {
   }
 
   .submenu li{
-      background: #222f37;
-      border-top: .1rem solid #101d23;
+      /* background: #222f37; */
+      /* border-top: .1rem solid #101d23; */
   }
 
   .submenu li a{
