@@ -25,14 +25,15 @@ body {
 
 .logo-wrapper {
   display: flex;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
-  flex-direction: column-reverse;
+  flex-direction: row-reverse;
 }
 
 @media (max-width: 900px) {
   .logo-wrapper {
-    flex-direction: row-reverse;
+    flex-direction: column-reverse;
+    justify-content: space-between;
   }
 }
 
@@ -49,14 +50,25 @@ nav {
   font-size: 1.5em;
 }
 
+nav a {
+  margin-right: 1em;
+}
+
 .logo {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-nav a {
-  margin-right: 1em;
+.logo span {
+  height: 13px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.logo img {
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 a {
