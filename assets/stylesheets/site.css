@@ -137,7 +137,6 @@ main section {
   flex-wrap: wrap;
   flex-direction: row;
   list-style: none;
-  gap: 3em;
   justify-content: center;
 }
 
@@ -153,6 +152,7 @@ main section {
 }
 
 .grid-block img {
+  margin-top: 4em;
   width: 100%;
   border-radius: 8px;
 }

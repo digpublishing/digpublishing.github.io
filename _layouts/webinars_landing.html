@@ -2,19 +2,17 @@
 layout: default
 ---
 <main>
-  <section>
-    <ul class="grid-block">
-      {% for webinar in site.posts | sort: 'date' | reverse %}
-        <li>
-          <a href="{{ webinar.url }}">
-              <img src="https://img.youtube.com/vi/{{ webinar.video_id}}/0.jpg" alt="{{ webinar.title }} video thumbnail"/>
-              <div>
-                <h3>{{ webinar.title }}</h3>
-                <i>{{ webinar.date | date_to_string: "ordinal", "US" }}</i>
-            </div>
-          </a>
-        </li>
-      {% endfor %}
-    </ul>
-  </section>
+  <ul class="grid-block">
+    {% for webinar in site.posts | sort: 'date' | reverse %}
+      <li>
+        <a href="{{ webinar.url }}">
+            <img src="https://img.youtube.com/vi/{{ webinar.video_id}}/0.jpg" alt="{{ webinar.title }} video thumbnail"/>
+            <div>
+              <h3>{{ webinar.title }}</h3>
+              <i>{{ webinar.date | date_to_string: "ordinal", "US" }}</i>
+          </div>
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
 </main>
