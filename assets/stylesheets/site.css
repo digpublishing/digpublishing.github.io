@@ -33,7 +33,7 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   margin-bottom: 0;
 }
 
@@ -54,8 +54,8 @@ body {
   }
 
   .logo {
-    justify-content: left;
-    margin-bottom: 'revert';
+    justify-content: center;
+    margin-bottom: revert;
   }
 }
 
