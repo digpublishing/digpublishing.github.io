@@ -30,16 +30,6 @@ body {
   flex-direction: row-reverse;
 }
 
-@media (max-width: 900px) {
-  .logo-wrapper {
-    flex-direction: column-reverse;
-  }
-
-  .logo {
-    justify-content: left;
-  }
-}
-
 .logo {
   display: flex;
   align-items: center;
@@ -56,6 +46,17 @@ body {
 .logo img {
   margin-left: 2px;
   margin-right: 2px;
+}
+
+@media (max-width: 900px) {
+  .logo-wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .logo {
+    justify-content: left;
+    margin-bottom: 'revert';
+  }
 }
 
 .wrapper {
@@ -77,7 +78,6 @@ nav a {
 
 a {
   color: #292f33;
-  border-radius: 8px;
 }
 
 a:hover {
