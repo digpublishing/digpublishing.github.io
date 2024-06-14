@@ -255,3 +255,80 @@ main section {
 .site-footer .icon svg path {
   fill: #292f33;
 }
+
+/* Navigation Menu */
+.menu{
+  list-style: none;
+}
+
+.menu li{
+  position: relative;
+  float:left;
+}
+
+.menu li a{
+  font-family: "Poppins", sans-serif;
+  font-size:1.2rem;
+  color:#d6e0f9;
+  display:block;
+  text-decoration: none;
+  padding:1rem 1.5rem;
+}
+
+.menu li a:hover{
+  background: #495ca8;
+}
+
+.submenu{
+  position: absolute;
+  left:0;
+  background: #101d23;
+  display:none;
+  transition: all .3s ease-in-out;
+}
+
+.submenu-wrapper:hover .submenu,
+.submenu-wrapper:focus-within .submenu{
+  display: initial;
+}
+
+.submenu li{
+  width:100%;
+  border-top:.1rem solid #222f37;
+  list-style: none;
+}
+
+@media (max-width: 991px){
+  .menu{
+      width:100%;
+      position:absolute;
+      top:100%;
+      left:0;
+      background: #101d23;
+      border-top: .1rem solid #222f37;
+      display:none;
+  }
+
+  .menu.active{
+      display:initial
+  }
+
+  .menu li{
+      width:100%;
+      border-top: .1rem solid #222f37;
+  }
+
+  .submenu{
+      position: relative;
+      width:100%;
+  }
+
+  .submenu li{
+      background: #222f37;
+      border-top: .1rem solid #101d23;
+  }
+
+  .submenu li a{
+      padding-left:2rem;
+  }
+}

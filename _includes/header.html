@@ -13,8 +13,28 @@
     </h1></a>
   </div>
   <nav>
-    {% for nav in site.data.navigation.items %}
-    <a href="{{ nav.link }}">{{ nav.name }}</a>
-    {% endfor %}
+    <ul class="menu">
+      <li><a href="/about">About</a></li>
+      <li class="submenu-wrapper">
+        <a href="/connect">Connect<span> > </span>
+        </a>
+        <ul class="submenu">
+            <li><a href="/committee">Committee</a></li>
+            <li><a href="/contact">Contact</a></li>
+        </ul>
+      </li>
+      <li class="submenu-wrapper">
+          <a href="#">Learn<span> > </span>
+          </a>
+          <ul class="submenu">
+              <li><a href="/webinars">Webinars</a></li>
+              <li><a href="/best-practices">Best Practices</a></li>
+              <li><a href="/resources">Resources</a></li>
+              <li><a href="#">Showcases</a></li>
+          </ul>
+      </li>
+  </ul>
+
+
   </nav>
 </header>
