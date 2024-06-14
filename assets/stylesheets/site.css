@@ -25,16 +25,37 @@ body {
 
 .logo-wrapper {
   display: flex;
-  justify-content: left;
   align-items: center;
+  justify-content: space-between;
   flex-direction: row-reverse;
 }
 
 @media (max-width: 900px) {
   .logo-wrapper {
     flex-direction: column-reverse;
-    justify-content: space-between;
   }
+
+  .logo {
+    justify-content: left;
+  }
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.logo span {
+  height: 13px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.logo img {
+  margin-left: 2px;
+  margin-right: 2px;
 }
 
 .wrapper {
@@ -52,23 +73,6 @@ nav {
 
 nav a {
   margin-right: 1em;
-}
-
-.logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.logo span {
-  height: 13px;
-  margin-left: 2px;
-  margin-right: 2px;
-}
-
-.logo img {
-  margin-left: 2px;
-  margin-right: 2px;
 }
 
 a {
@@ -116,7 +120,7 @@ h2 {
 main section {
   padding: 0 1.5rem;
   max-width: 740px;
-  margin: 200px auto 2rem;
+  margin: 100px auto 2rem;
 }
 
 .title-block {
