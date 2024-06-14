@@ -1,7 +1,7 @@
 <header class="site-header">
-  <div>
-    <a href="index.html"><h2 class="site-title">{{ site.title }}</h2></a>
-    <a href="index.html"><h1 class="logo">
+  <div class="logo-wrapper">
+    <a href="/"><h2 class="site-title">{{ site.title }}</h2></a>
+    <a href="/"><h1 class="logo">
       <img src="/assets/images/emoji_bluebook.png" alt="emoji green book" />
       <span>+</span>
       <img src="/assets/images/emoji_classicalbuilding.png" alt="emoji classical building" />
@@ -12,9 +12,9 @@
       <img src="/assets/images/emoji_hearteyes.png" alt="emoji face with hearts for eyes" />
     </h1></a>
   </div>
-  <div>
+  <nav>
     {% for nav in site.data.navigation.items %}
     <a href="{{ nav.link }}">{{ nav.name }}</a>
     {% endfor %}
-  </div>
+  </nav>
 </header>
