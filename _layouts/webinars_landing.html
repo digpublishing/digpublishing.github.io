@@ -2,15 +2,15 @@
 layout: default
 ---
 <main>
-  <section class="text-block">
-    <ul>
+  <section>
+    <ul class="grid-block">
       {% for webinar in site.posts | sort: 'date' | reverse %}
         <li>
           <a href="{{ webinar.url }}">
-            <div>
               <img src="https://img.youtube.com/vi/{{ webinar.video_id}}/0.jpg" alt="{{ webinar.title }} video thumbnail"/>
-              <strong>{{ webinar.title }}</strong>
-              <i>{{ page.date | date_to_string: "ordinal", "US" }}</i>
+              <div>
+                <h3>{{ webinar.title }}</h3>
+                <i>{{ webinar.date | date_to_string: "ordinal", "US" }}</i>
             </div>
           </a>
         </li>
