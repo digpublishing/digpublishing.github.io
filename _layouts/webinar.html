@@ -4,7 +4,7 @@ layout: default
 <main>
   <section class="title-block">
     <h1>{{ page.title }}</h1>
-    <i>{{ page.date | date_to_string: "ordinal", "US" }}</i>
+    <i>{{ page.date | date_to_long_string: "ordinal", "US" }}</i>
   </section>
   <div>
     {% for tag in page.tags %}
