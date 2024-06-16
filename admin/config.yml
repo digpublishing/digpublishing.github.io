@@ -21,6 +21,7 @@ collections:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'webinar'}
       - {label: 'Title', name: 'title', widget: 'string', required: true}
       - {label: 'Youtube Video ID', name: 'video_id', widget: 'string'}
+      - {label: 'Link to Presentation Slides', name: 'slides_url', widget: 'string'}
       - {
         label: 'Date Scheduled',
         name: 'date',
@@ -50,6 +51,7 @@ collections:
   - label: 'Home'
     editor:
       preview: false
+    create: false
     delete: false
     name: 'home'
     files:
@@ -58,6 +60,20 @@ collections:
         file: 'index.md'
         fields:
           - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'home'}
+          - {label: 'Content', name: 'body', widget: 'markdown', required: true}
+
+  - label: 'Committee'
+    editor:
+      preview: false
+    create: false
+    delete: false
+    name: 'committee'
+    files:
+      - label: 'Committee'
+        name: 'committee'
+        file: 'committee.md'
+        fields:
+          - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'committee_landing'}
           - {label: 'Content', name: 'body', widget: 'markdown', required: true}
 
   # Data pages
@@ -91,3 +107,15 @@ collections:
           fields:
             - {label: 'Name', name: 'name', widget: 'string', required: true}
             - {label: 'Link', name: 'link', widget: 'string', required: true}
+            - {label: 'Navigation is top level', name: 'is_top', widget: 'boolean', required: true, default: true}
+            - {
+              label: 'List Navigation Under',
+              name: 'parent',
+              widget: 'relation',
+              collection: 'navigation',
+              display_fields: ['label'],
+              value_field: 'name',
+              filters:
+                - field: 'is_top',
+                  values: true
+            }

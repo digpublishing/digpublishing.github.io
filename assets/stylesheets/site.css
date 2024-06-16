@@ -289,7 +289,7 @@ main section {
   border-radius: 8px;
   border: 1px solid black;
   padding: 0;
-  margin-left: 15px;
+  margin-top: 15px;
   display:none;
   transition: all .3s ease-in-out;
 }
