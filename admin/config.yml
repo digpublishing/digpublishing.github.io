@@ -112,8 +112,9 @@ collections:
               name: 'parent'
               widget: 'relation'
               collection: 'navigation'
+              search_fields: ['label']
               display_fields: ['label']
               value_field: 'name'
               filters:
                 - field: 'is_top'
-                  values: true
+                  values: [true]
