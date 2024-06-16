@@ -3,7 +3,7 @@ layout: default
 ---
 <main>
   <section class="title-block">
-    <h1>{{ page.title }}</h1>
+    <h1>Committee</h1>
   </section>
 
   <section class="text-block">
@@ -11,7 +11,8 @@ layout: default
   </section>
 
   <section>
-    {% for member in site.data.committee.memebers | sort: "isModerator", "last" %}
+    {% assign members = site.data.committee.memebers | sort: "isModerator", "last" %}
+    {% for member in members %}
       <h3>{{ member.name }}</h3>
       <i>{{ member.affiliation }}</i>
       <a href="mailto:{{ member.email }}">{{ member.email }}</a>
