@@ -11,8 +11,8 @@ layout: default
   </section>
 
   <section>
-    {% assign members = site.data.committee.members | sort: "isModerator", "last" %}
-    {% for member in members %}
+    {% assign members = site.data.committee.members %}
+    {% for member in members | sort: "isModerator", "last" %}
       <h3>{{ member.name }}</h3>
       <i>{{ member.affiliation }}</i>
       <a href="mailto:{{ member.email }}">{{ member.email }}</a>
