@@ -14,7 +14,7 @@
   </div>
   <nav>
     <ul class="menu">
-      {% assign items = site.data.navigation.items%}
+      {% assign items = site.data.navigation.items %}
       {% for nav in items | sort: "order" %}
         {% if nav.parent == nil or nav.parent == empty %}
           {% if nav.is_menu_label == false %}
