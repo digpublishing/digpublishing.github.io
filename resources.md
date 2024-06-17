@@ -1,4 +1,5 @@
 ---
-title: Resources
 layout: page
+title: Resources
 ---
+Coming Soon!

@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Best Practices
+title: Showcase
 ---
 Coming Soon!
