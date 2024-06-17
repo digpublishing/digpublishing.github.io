@@ -14,7 +14,7 @@
   </div>
   <nav>
     <ul class="menu">
-      {% assign items = site.data.navigation.items | where_exp: "parent", "parent != ''" %}
+      {% assign items = site.data.navigation.items | where_exp: "parent == nil or parent == ''" %}
       {% for nav in items | sort: "order" %}
 
         {% if nav.is_menu_label == false %}
@@ -32,26 +32,6 @@
           </li>
         {% endif %}
       {% endfor %}
-<!--
-
-      <li class="submenu-wrapper">
-        <a href="#">Connect<span> > </span>
-        </a>
-        <ul class="submenu">
-            <li><a href="/committee">Committee</a></li>
-            <li><a href="/contact">Contact</a></li>
-        </ul>
-      </li>
-      <li class="submenu-wrapper">
-          <a href="#">Learn<span> > </span>
-          </a>
-          <ul class="submenu">
-              <li><a href="/webinars">Webinars</a></li>
-              <li><a href="/best-practices">Best Practices</a></li>
-              <li><a href="/resources">Resources</a></li>
-              <li><a href="/showcase">Showcase</a></li>
-          </ul>
-      </li> -->
     </ul>
   </nav>
 </header>
