@@ -1,7 +1,32 @@
 items:
   - name: About
     link: /about
+    is_menu_label: false
   - is_menu_label: true
     name: Connect
   - is_menu_label: true
     name: Learn
+  - is_menu_label: false
+    name: Committee
+    link: /committee
+    parent: Connect
+  - is_menu_label: false
+    name: Contact
+    link: /contact
+    parent: Connect
+  - is_menu_label: false
+    name: Webinars
+    link: /webinars
+    parent: Learn
+  - is_menu_label: false
+    name: Best Practices
+    link: /best-practices
+    parent: Learn
+  - is_menu_label: false
+    name: Resources
+    link: /resources
+    parent: Learn
+  - is_menu_label: false
+    name: Showcase
+    link: /showcase
+    parent: Learn
