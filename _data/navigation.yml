@@ -39,3 +39,8 @@ items:
     link: /showcase
     parent: Learn
     order: 4
+  - is_menu_label: false
+    name: Todo
+    link: /todo
+    order: 3
+    parent: Connect
