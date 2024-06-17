@@ -111,11 +111,12 @@ collections:
             - label: 'List Navigation Under'
               name: 'parent'
               widget: 'relation'
-              collection: 'navigation'
-              search_fields: ['label']
-              display_fields: ['label']
-              required: false
+              collection: 'config'
+              file: '_data/navigation.yml'
               value_field: 'name'
+              search_fields: ['name']
+              display_fields: ['name']
+              required: false
               filters:
                 - field: 'is_top'
                   values: [true]
