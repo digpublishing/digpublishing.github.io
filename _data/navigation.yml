@@ -1,8 +1,7 @@
 items:
   - name: About
     link: /about
-    is_top: true
-  - name: Connect
-    is_top: true
-  - is_top: true
+  - is_menu_label: true
+    name: Connect
+  - is_menu_label: true
     name: Learn
