@@ -113,9 +113,9 @@ collections:
               widget: 'relation'
               collection: 'config'
               file: 'navigation'
-              value_field: 'items.name'
-              search_fields: ['items.name']
-              display_fields: ['items.name']
+              value_field: '{{items.name}}'
+              search_fields: ['items']
+              display_fields: ['items']
               required: false
               filters:
                 - field: 'is_menu_label'
