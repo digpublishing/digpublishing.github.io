@@ -108,15 +108,4 @@ collections:
             - {label: 'Name', name: 'name', widget: 'string', required: true}
             - {label: 'Link', name: 'link', widget: 'string', required: false}
             - {label: 'Is a Menu Label', name: 'is_menu_label', widget: 'boolean', required: true, default: false}
-            - label: 'List Navigation Under'
-              name: 'parent'
-              widget: 'relation'
-              collection: 'config'
-              file: 'navigation'
-              value_field: '{{items.name}}'
-              search_fields: ['items']
-              display_fields: ['items']
-              required: false
-              filters:
-                - field: 'is_menu_label'
-                  values: [true]
+            - {label: 'List Navigation Under Menu Label', name: 'parent', widget: 'string', required: false}
