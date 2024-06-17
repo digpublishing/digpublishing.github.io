@@ -21,7 +21,7 @@ collections:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'webinar'}
       - {label: 'Title', name: 'title', widget: 'string', required: true}
       - {label: 'Youtube Video ID', name: 'video_id', widget: 'string'}
-      - {label: 'Link to Presentation Slides', name: 'slides_url', widget: 'string'}
+      - {label: 'Link to Presentation Slides', name: 'slides_url', widget: 'string', required: false}
       - {
         label: 'Date Scheduled',
         name: 'date',
