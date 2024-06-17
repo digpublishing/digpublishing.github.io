@@ -14,23 +14,24 @@
   </div>
   <nav>
     <ul class="menu">
-      {% assign items = site.data.navigation.items | where_exp: "parent", "parent == nil or parent == empty" %}
+      {% assign items = site.data.navigation.items%}
       {% for nav in items | sort: "order" %}
-
-        {% if nav.is_menu_label == false %}
-          <li><a href="{{nav.link}}">{{nav.name}}</a></li>
-        {% else %}
-          <li class="submenu-wrapper">
-            <a href="#">{{nav.name}}<span> > </span>
-            </a>
-            {% assign subitems = site.data.navigation.items | where: "parent", nav.name %}
-            <ul class="submenu">
-              {% for subnav in subitems | sort: "order" %}
-                <li><a href="{{subnav.link}}">{{subnav.name}}</a></li>
-              {% endfor %}
-            </ul>
-          </li>
-        {% endif %}
+        {% if nav.parent == nil or nav.parent == empty %}
+          {% if nav.is_menu_label == false %}
+            <li><a href="{{nav.link}}">{{nav.name}}</a></li>
+          {% else %}
+            <li class="submenu-wrapper">
+              <a href="#">{{nav.name}}<span> > </span>
+              </a>
+              {% assign subitems = site.data.navigation.items | where: "parent", nav.name %}
+              <ul class="submenu">
+                {% for subnav in subitems | sort: "order" %}
+                  <li><a href="{{subnav.link}}">{{subnav.name}}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+            {% endif %}
+          {% endif %}
       {% endfor %}
     </ul>
   </nav>
