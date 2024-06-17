@@ -14,7 +14,26 @@
   </div>
   <nav>
     <ul class="menu">
-      <li><a href="/about">About</a></li>
+      {% assign items = site.data.navigation.items | where_exp: "parent", "parent != ''" %}
+      {% for nav in items | sort: "order" %}
+
+        {% if nav.is_menu_label == false %}
+          <li><a href="{{nav.link}}">{{nav.name}}</a></li>
+        {% else %}
+          <li class="submenu-wrapper">
+            <a href="#">{{nav.name}}<span> > </span>
+            </a>
+            {% assign subitems = site.data.navigation.items | where: "parent", nav.name %}
+            <ul class="submenu">
+              {% for subnav in subitems | sort: "order" %}
+                <li><a href="{{subnav.link}}">{{subnav.name}}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+        {% endif %}
+      {% endfor %}
+<!--
+
       <li class="submenu-wrapper">
         <a href="#">Connect<span> > </span>
         </a>
@@ -32,9 +51,7 @@
               <li><a href="/resources">Resources</a></li>
               <li><a href="/showcase">Showcase</a></li>
           </ul>
-      </li>
-  </ul>
-
-
+      </li> -->
+    </ul>
   </nav>
 </header>

@@ -107,5 +107,6 @@ collections:
           fields:
             - {label: 'Name', name: 'name', widget: 'string', required: true}
             - {label: 'Link', name: 'link', widget: 'string', required: false}
+            - {label: 'Order to Appear', name: 'order', widget: number, value_type: 'int', required: true}
             - {label: 'Is a Menu Label', name: 'is_menu_label', widget: 'boolean', required: true, default: false}
             - {label: 'List Navigation Under Menu Label', name: 'parent', widget: 'string', required: false}
