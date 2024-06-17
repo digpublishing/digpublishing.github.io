@@ -3,7 +3,6 @@ items:
     link: /about
     is_top: true
   - name: Connect
-    link: ""
     is_top: true
   - is_top: true
     name: Learn

@@ -112,10 +112,10 @@ collections:
               name: 'parent'
               widget: 'relation'
               collection: 'config'
-              file: '_data/navigation.yml'
-              value_field: 'name'
-              search_fields: ['name']
-              display_fields: ['name']
+              file: 'navigation'
+              value_field: 'items.*.name'
+              search_fields: ['items.*.name']
+              display_fields: ['items.*.name']
               required: false
               filters:
                 - field: 'is_top'
