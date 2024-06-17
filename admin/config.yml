@@ -106,7 +106,7 @@ collections:
           required: true
           fields:
             - {label: 'Name', name: 'name', widget: 'string', required: true}
-            - {label: 'Link', name: 'link', widget: 'string'}
+            - {label: 'Link', name: 'link', widget: 'string', required: false}
             - {label: 'Navigation is top level', name: 'is_top', widget: 'boolean', required: true, default: true}
             - label: 'List Navigation Under'
               name: 'parent'
