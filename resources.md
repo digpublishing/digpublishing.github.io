@@ -10,8 +10,6 @@ Quimby, Claire. *[Digital Catalogues Study: A Cross-Institutional User Study of 
 
 Maxwell, J. W., E. Hanson, L. Desai, C. Tiampo, K. O’Donnell, A. Ketheeswaran, M. Sun, E. Walter, E. Michelle.  *[Mind the Gap: A Landscape Analysis of Open Source Publishing Tools and Platforms](https://doi.org/10.21428/6bc8b38c.2e2f6c3f),* July 2019. 
 
-
-
 ## Aggregators/Directories/Discovery
 
 [Crossref ](https://www.crossref.org/)
@@ -28,8 +26,6 @@ Maxwell, J. W., E. Hanson, L. Desai, C. Tiampo, K. O’Donnell, A. Ketheeswaran,
 
 [MuPuDIG Best Practices for Promotion of Museum Digital Publications](https://digpublishing.github.io/best-practices)
 
-
-
 ## Accessibility
 
 [National Network for Equitable Library Service (Canada](https://nnels.ca/)) 
@@ -39,8 +35,6 @@ Maxwell, J. W., E. Hanson, L. Desai, C. Tiampo, K. O’Donnell, A. Ketheeswaran,
 [WCAG (Web Content Accessibility Guidelines)](https://www.w3.org/WAI/standards-guidelines/wcag/)
 
 [University of Michigan Describing Visual Resources Toolkit](https://describingvisualresources.org/)
-
-
 
 ## Platforms/Catalogues
 
@@ -60,7 +54,9 @@ Maxwell, J. W., E. Hanson, L. Desai, C. Tiampo, K. O’Donnell, A. Ketheeswaran,
 
 [Quire](https://quire.getty.edu/) (open-source digital catalogue platform created by Getty)
 
+[ArcGIS Story Maps](https://storymaps.arcgis.com/) (map-based only storytelling platform)
 
+* [The Art of Where](https://storymaps.arcgis.com/collections/87016de9b5db4580b4a9340364eb7c80) (examples of art-centered Story Maps)
 
 ## Articles/Talks
 
