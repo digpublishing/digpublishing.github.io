@@ -20,9 +20,9 @@ Maxwell, J. W., E. Hanson, L. Desai, C. Tiampo, K. O’Donnell, A. Ketheeswaran,
 
 * [Submission instructions](https://dahd.hcommons.org/submission-instructions/) 
 
-[Directory of Open Access Books](https://www.doabooks.org/): 
+[Directory of Open Access Books](https://www.doabooks.org/)
 
-[Directory of Open Access Journals](https://doaj.org/): 
+[Directory of Open Access Journals](https://doaj.org/)
 
 [ARLIS/NA](https://www.arlisna.org/) 
 
