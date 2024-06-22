@@ -39,7 +39,7 @@ collections:
             name: 'title'
             widget: 'string'
             required: true
-            default: 'Slides'
+            default: 'Presentation Slides'
           - label: 'Link'
             name: 'link'
             widget: 'string'

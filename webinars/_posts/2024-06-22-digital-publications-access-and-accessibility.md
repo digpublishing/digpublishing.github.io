@@ -3,7 +3,7 @@ layout: webinar
 title: "Digital Publications: Access and Accessibility"
 video_id: kxV9j0pWixI
 slides_url:
-    - title: "Slides"
+    - title: "Presentation Slides"
       link: https://drive.google.com/file/d/1zA3ZbraBrdoo2AEMN0GPrpN1NCGlddYl/view
 date: March 24, 2020
 ---

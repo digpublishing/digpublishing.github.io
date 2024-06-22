@@ -26,7 +26,7 @@ layout: default
   </section>
   {% for url in page.slides_url %}
     <section>
-      <a href="{{page.slides_url}}">Download Presentation Slides</a>
+      <a href="{{url.link}}">Download {{url.title}}</a>
     </section>
   {% endfor %}
   <section class="text-block">
