@@ -1,7 +1,7 @@
 ---
 layout: webinar
 title: Inclusion & Accessibility in Digital Publications
-video_id: OFvTtHvFFII&t=164s
+video_id: OFvTtHvFFII
 date: June 28, 2022
 ---
 A presentation on inclusion and accessibility in digital publications from the National Network for Equitable Library Service (Canada). 
