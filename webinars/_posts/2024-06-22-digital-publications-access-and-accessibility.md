@@ -2,6 +2,7 @@
 layout: webinar
 title: "Digital Publications: Access and Accessibility"
 video_id: kxV9j0pWixI&t=1658s
+slides_url: https://drive.google.com/file/d/1zA3ZbraBrdoo2AEMN0GPrpN1NCGlddYl/view
 date: March 24, 2020
 ---
 Presentations from colleagues working on digital publishing projects and thinking about issues of accessibility, access, and sustainability.
