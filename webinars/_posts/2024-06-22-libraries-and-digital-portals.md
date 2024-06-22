@@ -1,7 +1,7 @@
 ---
 layout: webinar
 title: Libraries and Digital Portals
-video_id: fOK664ZCaTI&t=1543s
+video_id: fOK664ZCaTI
 date: November 16, 2020
 ---
 A focus on how libraries and digital portals are responding to trends in digital publishing.
