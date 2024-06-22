@@ -21,16 +21,14 @@ collections:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'webinar'}
       - {label: 'Title', name: 'title', widget: 'string', required: true}
       - {label: 'Youtube Video ID', name: 'video_id', widget: 'string'}
-      - {
-        label: 'Links to Presentation Slides',
-        name: 'slides_url',
-        widget: 'list',
-        required: false,
-        summary: '{{fields.title}} - {{fields.link}}',
+      - label: 'Links to Presentation Slides'
+        name: 'slides_url'
+        widget: 'list'
+        required: false
+        summary: '{{fields.title}} - {{fields.link}}'
         fields:
-          - {label: Link Text, name: title, widget: string, required: true, default: 'Slides'},
-          - {label: Link, name: link, widget: string, required: true},
-      }
+          - {label: 'Link Text', name: 'title', widget: 'string', required: true, default: 'Slides'},
+          - {label: 'Link', name: 'link', widget: 'string', required: true},
       - {
         label: 'Date Scheduled',
         name: 'date',
