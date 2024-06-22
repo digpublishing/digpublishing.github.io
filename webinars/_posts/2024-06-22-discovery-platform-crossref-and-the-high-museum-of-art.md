@@ -1,8 +1,8 @@
 ---
 layout: webinar
 title: "Discovery & Platform: Crossref and the High Museum of Art"
-video_id: inJed6iHpFE&t=8s
-date: June 22, 2024
+video_id: nJed6iHpFE&t=9s
+date: April 26, 2022
 ---
 Crossref allows publishers to register their content, assign persistent identifiers (DOIs) to their work, and submit rich metadata so that others, from researchers to funders to library discovery systems, can more easily search and discover research. Susan Collins (Community Engagement Manager) and Jennifer Kemp (Head of Partnerships) will discuss how Crossref makes research outputs easy to find, cite, assess, and reuse. 
 
