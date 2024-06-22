@@ -18,26 +18,44 @@ collections:
     delete: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
-      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'webinar'}
-      - {label: 'Title', name: 'title', widget: 'string', required: true}
-      - {label: 'Youtube Video ID', name: 'video_id', widget: 'string'}
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'webinar'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+        required: true
+      - label: 'Youtube Video ID'
+        name: 'video_id'
+        widget: 'string'
       - label: 'Links to Presentation Slides'
         name: 'slides_url'
         widget: 'list'
         required: false
         summary: '{{fields.title}} - {{fields.link}}'
         fields:
-          - {label: 'Link Text', name: 'title', widget: 'string', required: true, default: 'Slides'},
-          - {label: 'Link', name: 'link', widget: 'string', required: true},
-      - {
-        label: 'Date Scheduled',
-        name: 'date',
-        widget: 'datetime',
-        date_format: 'MMMM D, YYYY',
+          - label: 'Link Text'
+            name: 'title'
+            widget: 'string'
+            required: true
+            default: 'Slides'
+          - label: 'Link'
+            name: 'link'
+            widget: 'string'
+            required: true
+      - label: 'Date Scheduled'
+        name: 'date'
+        widget: 'datetime'
+        date_format: 'MMMM D, YYYY'
         required: true
-      }
-      - {label: 'Tags', name: 'tags', widget: 'list'}
-      - {label: 'Content', name: 'body', widget: 'markdown', required: true}
+      - label: 'Tags'
+        name: 'tags'
+        widget: 'list'
+      - label: 'Content'
+        name: 'body'
+        widget: 'markdown'
+        required: true
 
   # Collection of custom pages
   - label: 'Pages'
