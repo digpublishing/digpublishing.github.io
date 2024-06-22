@@ -1,7 +1,7 @@
 ---
 layout: webinar
 title: New Demands for Digital in the Age of COVID-19
-video_id: KMHKrFC5iUE&t=1782s
+video_id: KMHKrFC5iUE
 date: May 19, 2020
 ---
 This hour-long webinar begins with a brief overview of new resources being developed to share with the MuPuDIG community, including a database of museum digital publications and a checklist of ideas for improving findability of online publications. 
