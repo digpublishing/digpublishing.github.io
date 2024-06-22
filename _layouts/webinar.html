@@ -24,11 +24,11 @@ layout: default
       allowfullscreen
     ></iframe>
   </section>
-  {% if page.slides_url and page.slides_url != '' %}
+  {% for url in page.slides_url %}
     <section>
       <a href="{{page.slides_url}}">Download Presentation Slides</a>
     </section>
-  {% endif %}
+  {% endfor %}
   <section class="text-block">
     {{ content }}
   </section>

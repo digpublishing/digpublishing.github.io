@@ -21,7 +21,16 @@ collections:
       - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'webinar'}
       - {label: 'Title', name: 'title', widget: 'string', required: true}
       - {label: 'Youtube Video ID', name: 'video_id', widget: 'string'}
-      - {label: 'Link to Presentation Slides', name: 'slides_url', widget: 'string', required: false}
+      - {
+        label: 'Links to Presentation Slides',
+        name: 'slides_url',
+        widget: 'list',
+        required: false,
+        summary: '{{fields.title}} - {{fields.link}}',
+        fields:
+          - {label: Link Text, name: title, widget: string, required: true, default: 'Slides'},
+          - {label: Link, name: link, widget: string, required: true},
+      }
       - {
         label: 'Date Scheduled',
         name: 'date',
@@ -93,7 +102,7 @@ collections:
           fields:
             - {label: 'Name', name: 'name', widget: 'string', required: true}
             - {label: 'Affiliation', name: 'affiliation', widget: 'string', required: true}
-            - {label: 'Email', name: 'email', widget: 'string'}
+            - {label: 'Email', name: 'email', widget: 'string', required: false}
             - {label: 'Are they a moderator?', name: 'isModerator', widget: 'boolean', required: true, default: false}
             - {label: 'Bio', name: 'bio', widget: 'markdown'}
     - file: '_data/navigation.yml'

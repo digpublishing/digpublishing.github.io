@@ -35,7 +35,7 @@ items:
     parent: Learn
     order: 3
   - is_menu_label: false
-    name: Showcase
-    link: /showcase
+    name: Digital Publications Database
+    link: /digital-publications-database
     parent: Learn
     order: 4
