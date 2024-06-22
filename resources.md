@@ -2,7 +2,7 @@
 layout: page
 title: Resources
 ---
-## **Studies and Initiatives**
+## Studies and Initiatives
 
 Quimby, Claire. *[Digital Catalogues Study: A Cross-Institutional User Study of Online Museum Collection Catalogues](https://digpublishing.github.io/catalogues-study/.)*. Chicago: Art Institute of Chicago, November 2019. 
 
