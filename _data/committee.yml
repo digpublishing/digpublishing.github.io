@@ -11,8 +11,8 @@ members:
     bio: test
   - isModerator: true
     name: Katie Reilly
-    affiliation: Philadelphia Museum of Art
-    email: Katie.Reilly@philamuseum.org
+    affiliation: The Art Institute of Chicago
+    email: kreilly@artic.edu
     bio: test
   - isModerator: true
     name: Emily Zoss
@@ -22,5 +22,25 @@ members:
   - isModerator: false
     name: Daniel Keller
     affiliation: Indianapolis Museum of Art at Newfields
-    email: dkeller@discovernewfields.org
-    bio: Test
+    email: ""
+    bio: test
+  - isModerator: false
+    name: Shelley Kopp
+    affiliation: Western University, Department of Visual Arts
+    bio: test
+  - isModerator: false
+    name: Stephanie Alger
+    affiliation: Nelson-Atkins Museum of Art
+    bio: test
+  - isModerator: false
+    name: Lara Yeager Crasselt
+    affiliation: Baltimore Museum of Art
+    bio: test
+  - isModerator: false
+    name: Kamilah Foreman
+    affiliation: Dia Art Foundation
+    bio: test
+  - isModerator: false
+    name: Eric Zeidler
+    affiliation: Dallas Museum of Art
+    bio: test
