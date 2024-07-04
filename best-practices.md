@@ -16,7 +16,7 @@ We are looking for other successful strategies to include on this list. To sugge
 * Send announcement of publication to target audiences (e.g., museum and curatorial community, universities, libraries, publishers, tech community, relevant reviewers/publications, museum members/donors/other interested groups) with assistance from marketing department or others, as needed. In addition to addressing the topic, scope, and content of the publication, the announcement should highlight the features unique to it (such as accessibility, hi-res images, viewing tools, digitized primary source materials, etc.). 
 
   * Assemble a spreadsheet of target contacts by leveraging contributors’ connections. 
-  * See a sample release [here](https://docs.google.com/document/d/1GK4ZaGlG24xuuCYloiMMdxnTcUjXqqihXNHWTRn8Cew/edit?usp=sharing). 
+  * See a sample release [here](https://docs.google.com/document/d/1GK4ZaGlG24xuuCYloiMMdxnTcUjXqqihXNHWTRn8Cew/edit?usp=sharing){:target="_blank"}. 
 * Draft social media posts to post with accompanying images (such as the “cover” image of the publication). 
 * Request that author(s) provide a link (and potentially a PDF) on any personal or institutional websites (particularly those ending in .edu, which should help in having the publication picked up by Google Scholar, or other sites such as [ResearchGate](https://www.researchgate.net/) or [Academia.edu](https://www.academia.edu/)) and social media platforms.
 
