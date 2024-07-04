@@ -275,6 +275,10 @@ main section {
   margin: 0;
 }
 
+.webinar-title {
+  width: 100%;
+}
+
 .submenu{
   position: absolute;
   left:0;
