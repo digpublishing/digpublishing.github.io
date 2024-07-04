@@ -25,7 +25,7 @@ items:
     parent: Learn
     order: 1
   - is_menu_label: false
-    name: Best Practices
+    name: Promotion Best Practices
     link: /best-practices
     parent: Learn
     order: 2
