@@ -7,7 +7,7 @@ layout: default
       <li>
         <a href="{{ webinar.url }}">
             <img src="https://img.youtube.com/vi/{{ webinar.video_id}}/0.jpg" alt="{{ webinar.title }} video thumbnail"/>
-            <div>
+            <div class='webinar-title'>
               <h3>{{ webinar.title }}</h3>
               <i>{{ webinar.date | date_to_long_string: "ordinal", "US" }}</i>
           </div>
