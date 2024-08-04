@@ -44,6 +44,15 @@ collections:
             name: 'link'
             widget: 'string'
             required: true
+      - label: 'Presenters'
+        name: 'presenters'
+        widget: 'list'
+        required: false
+        summary: '{{fields.name}} - {{fields.affiliation}}'
+        fields:
+            - {label: 'Name', name: 'name', widget: 'string', required: true}
+            - {label: 'Affiliation', name: 'affiliation', widget: 'string', required: false}
+            - {label: 'Email', name: 'email', widget: 'string', required: false}
       - label: 'Date Scheduled'
         name: 'date'
         widget: 'datetime'

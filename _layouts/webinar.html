@@ -23,13 +23,24 @@ layout: default
       referrerpolicy="strict-origin-when-cross-origin"
       allowfullscreen
     ></iframe>
+    <p>
+      <ul>
+        {% for presenter in page.presenters %}
+          <li>
+            <div><strong>{{ presenter.name }}</strong></div>
+            <div><i>{{ presenter.affiliation }}</i></div>
+            <div><a href="mailto:{{ presenter.email }}">{{ presenter.email }}</a></div>
+          </li>
+        {% endfor %}
+      </ul>
+    </p>
   </section>
-  {% for url in page.slides_url %}
-    <section>
-      <a href="{{url.link}}">Download {{url.title}}</a>
+    <p>
+      {% for url in page.slides_url %}
+        <a href="{{url.link}}">Download {{url.title}}</a>
+      {% endfor %}
+    </p>
+    <section class="text-block">
+      {{ content }}
     </section>
-  {% endfor %}
-  <section class="text-block">
-    {{ content }}
-  </section>
 </main>
