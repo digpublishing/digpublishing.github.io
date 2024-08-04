@@ -51,7 +51,8 @@ collections:
         summary: '{{fields.name}} - {{fields.affiliation}}'
         fields:
             - {label: 'Name', name: 'name', widget: 'string', required: true}
-            - {label: 'Affiliation', name: 'affiliation', widget: 'string', required: false}
+            - {label: 'Job Title', name: 'job_title', widget: 'string', required: false}
+            - {label: 'Affiliation', name: 'affiliation', widget: 'string', required: true}
             - {label: 'Email', name: 'email', widget: 'string', required: false}
       - label: 'Date Scheduled'
         name: 'date'

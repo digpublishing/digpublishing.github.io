@@ -27,7 +27,7 @@ layout: default
         <p>
           <div><strong>{{ member.name }}</strong></div>
           <div><i>{{ member.affiliation }}</i></div>
-          <div><a href="mailto:{{ member.email }}">{{ member.email }}</a></div>
+          {% if member.email %}<div><a href="mailto:{{ member.email }}">{{ member.email }}</a></div>{% endif %}
         </p>
       {% endif %}
     {% endfor %}
