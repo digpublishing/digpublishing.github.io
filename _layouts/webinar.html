@@ -27,7 +27,7 @@ layout: default
       {% for presenter in page.presenters %}
         <p>
           <div><strong>{{ presenter.name }}</strong></div>
-          <div><i>{{ if presenter.job_title }}{{presenter.job_title}}, {{ endif }}{{ presenter.affiliation }}</i></div>
+          <div>{{ if presenter.job_title }}{{presenter.job_title}}, {{ endif }}<i>{{ presenter.affiliation }}</i></div>
           {% if presenter.email %}<div><a href="mailto:{{ presenter.email }}">{{ presenter.email }}</a></div>{% endif %}
         </p>
       {% endfor %}
