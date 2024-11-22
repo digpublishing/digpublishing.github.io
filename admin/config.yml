@@ -38,8 +38,7 @@ collections:
           - label: 'Link Text'
             name: 'title'
             widget: 'string'
-            required: true
-            default: 'Presentation Slides'
+            required: true            
           - label: 'Link'
             name: 'link'
             widget: 'string'
