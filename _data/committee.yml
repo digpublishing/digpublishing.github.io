@@ -25,20 +25,10 @@ members:
     email: dkeller@discovernewfields.org
     bio: test
   - isModerator: false
-    name: Shelley Kopp
-    affiliation: Western University, Department of Visual Arts
-    bio: test
-    email: skopp2@uwo.ca
-  - isModerator: false
     name: Stephanie Alger
     affiliation: Nelson-Atkins Museum of Art
     bio: test
     email: salger@nelson-atkins.org
-  - isModerator: false
-    name: Lara Yeager Crasselt
-    affiliation: Baltimore Museum of Art
-    bio: test
-    email: lyeagercrasselt@artbma.org
   - isModerator: false
     name: Kamilah Foreman
     affiliation: Dia Art Foundation
@@ -47,4 +37,17 @@ members:
   - isModerator: false
     name: Eric Zeidler
     affiliation: Virginia Museum of Fine Arts
+    bio: test
+  - isModerator: false
+    name: Andrew LeClair
+    affiliation: Independent designer and Parsons School of Design
+    email: studio@andrewleclair.com
+    bio: |-2
+       
+
+      test
+  - isModerator: false
+    name: Valerie Hellstein
+    affiliation: Denver Art Museum
+    email: vhellstein@denverartmuseum.org
     bio: test
