@@ -51,3 +51,8 @@ members:
     affiliation: Denver Art Museum
     email: vhellstein@denverartmuseum.org
     bio: test
+  - isModerator: false
+    name: Sara Sapire
+    affiliation: Yale University Press
+    email: sara.sapire@yale.edu
+    bio: test
