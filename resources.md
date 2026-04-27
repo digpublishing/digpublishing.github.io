@@ -63,3 +63,19 @@ Maxwell, J. W., E. Hanson, L. Desai, C. Tiampo, K. O’Donnell, A. Ketheeswaran,
 Back, A. “[The Collecting Practices for Art Exhibition Catalogs at Academic Libraries in the United States and Canada](https://www.journals.uchicago.edu/doi/10.1086/697272).” *Art Documentation* 37, no. 1 (2018): 104-118. DOI: 10.1086/697272 
 
 [Diversifying Digital Publishing: Lessons from Brown University Library’s Endowment for the Humanities Institute](https://www.cni.org/topics/digital-humanities/diversifying-digital-publishing-lessons-from-brown-university-librarys-national-endowment-for-the-humanities-institute)
+
+## Gen AI Resources
+
+Scholarly Kitchen, “[AI as Reader, Author, and Reviewer: What Stays Human?](https://scholarlykitchen.sspnet.org/2025/11/06/guest-post-ai-as-reader-author-and-reviewer-what-stays-human/?informz=1&nbd=&nbd_source=informz)”
+
+Scholarly Kitchen, “[Classifying AI Use in Manuscript Preparation – A Recommendation](https://scholarlykitchen.sspnet.org/2025/09/23/guest-post-classifying-ai-use-in-manuscript-preparation-a-recommendation/?informz=1&nbd=&nbd_source=informz)”
+
+Wilkening Consulting, Report: "[Trust and Responsibility to Community, Part 6: Artificial Intelligence in Museums](https://wilkeningconsulting.com/trust-and-responsibility-to-community-part-6/)"
+
+Simplilearn, “[Generative AI Explained in 5 Minutes](https://youtu.be/NRmAXDWJVnU?si=-ZRV2DRTWdMLY24W)”
+
+Anecdotal Value, “[How to Tell if Something Is AI-Written](https://hollisrobbinsanecdotal.substack.com/p/how-to-tell-if-something-is-ai-written)”
+
+U.S. Copyright Office, [Copyright and Artificial Intelligence, Part II: Copyrightability](https://www.copyright.gov/ai/Copyright-and-Artificial-Intelligence-Part-2-Copyrightability-Report.pdf) (January 2025)
+
+**Explore the full [MuPuDIG Generative AI and Museum Publishing Resource Library](https://docs.google.com/document/d/1GjJFRhUbtJCwR-fvMVbgIVk-pVPAh7ryURVi3Z0iNhc/edit?usp=sharing)**
