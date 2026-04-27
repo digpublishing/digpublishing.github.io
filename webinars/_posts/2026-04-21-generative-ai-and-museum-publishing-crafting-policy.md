@@ -7,15 +7,7 @@ slides_url:
     link: https://docs.google.com/presentation/d/1KbKVRd9HFuBG5lQ8Op95kTVXprpuryD2/edit?usp=sharing&ouid=100257929334340248759&rtpof=true&sd=true
   - title: Generative AI in Museum Publishing Resource Library
     link: https://docs.google.com/document/d/1GjJFRhUbtJCwR-fvMVbgIVk-pVPAh7ryURVi3Z0iNhc/edit?usp=sharing
-presenters:
-  - name: Rob Stein
-    affiliation: National Gallery of Art
-  - name: Allee Austin
-    affiliation: Amon Carter Museum
-  - name: Katherine Boller
-    affiliation: Yale University Press
-  - name: Katie Reilly
-    affiliation: The Art Institute of Chicago
+presenters: []
 date: April 21, 2026
 tags: []
 ---
